@@ -1,6 +1,6 @@
-# recepti_app
+# МИС Лабораториска вежба 2 - Рецепти - 201249
 
-A new Flutter project.
+![til](https://github.com/MatejPetkovski/MIS_recepti_app/blob/master/photos%20and%20video/video.gif?raw=true)
 
 ## Getting Started
 
