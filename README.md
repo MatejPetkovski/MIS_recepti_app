@@ -2,6 +2,10 @@
 
 ![til](https://github.com/MatejPetkovski/MIS_recepti_app/blob/master/photos%20and%20video/video.gif?raw=true)
 
+# МИС Лабораториска вежба 3 - Рецепти - 201249
+
+![til](https://github.com/MatejPetkovski/MIS_recepti_app/blob/master/photos%20and%20video/lab3/lab3_video.gif?raw=true)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
