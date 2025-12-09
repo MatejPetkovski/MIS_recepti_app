@@ -5,6 +5,7 @@ import '../widgets/category_card.dart';
 import 'meals_by_category.dart';
 import 'details.dart';
 import '../models/meal_detail_model.dart';
+import 'favorites.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -87,6 +88,17 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: _isRandomLoading ? null : _openRandomMeal,
             icon: const Icon(Icons.book),
             tooltip: 'Рандом рецепт на денот',
+          ),
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => const FavoritesScreen(),
+                ),
+              );
+            },
+            icon: const Icon(Icons.favorite),
+            tooltip: 'Омилени рецепти',
           )
         ],
       ),

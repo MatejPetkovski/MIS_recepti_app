@@ -4,6 +4,7 @@ import '../services/api_service.dart';
 import '../widgets/meal_card.dart';
 import 'details.dart';
 import '../models/meal_detail_model.dart';
+import 'favorites.dart';
 
 class MealsByCategoryScreen extends StatefulWidget {
   final String category;
@@ -76,7 +77,21 @@ class _MealsByCategoryScreenState extends State<MealsByCategoryScreen> {
   Widget build(BuildContext context) {
     final title = widget.category.isEmpty ? 'Рецепти' : widget.category;
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
+      appBar: AppBar(title: Text(title),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => const FavoritesScreen(),
+                ),
+              );
+            },
+            icon: const Icon(Icons.favorite),
+            tooltip: 'Омилени рецепти',
+          )
+        ],
+      ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : Column(

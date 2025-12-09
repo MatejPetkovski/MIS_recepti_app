@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698972634102",
+    "project_id": "mis-recepti",
+    "storage_bucket": "mis-recepti.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698972634102:android:b5d53035bd589fded465d7",
+        "android_client_info": {
+          "package_name": "com.example.recepti_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJxNzlLyCyeqZw6vTEYEM7fkIn931pRCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
